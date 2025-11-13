@@ -1,0 +1,79 @@
+.product-page {
+  padding: 2rem;
+  direction: rtl;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+.product-card {
+  text-align: center;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
+
+.product-image {
+  max-height: 220px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.product-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #5f4c34;
+  margin-top: 0.7rem;
+}
+
+.product-price {
+  color: #8b5e3c;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  font-size: 1.05rem;
+}
+
+.add-button {
+  margin-top: 0.7rem;
+  background-color: #c2a678;
+  border: none;
+  color: white;
+  border-radius: 999px;
+  padding: 0.5rem 1.6rem;
+  font-size: 0.9rem;
+}
+
+.add-button:hover {
+  background-color: #b0915b;
+}
+
+/* צבע כוכבים */
+.p-rating .p-rating-item.p-rating-item-active .p-rating-icon {
+  color: #8b5e3c !important;
+}
+
+.p-rating .p-rating-item .p-rating-icon {
+  color: #e0cdb3 !important;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 עמודות שוות רוחב */
+  gap: 2rem;
+}
+.p-rating {
+  display: flex;
+  justify-content: center; /* מרכז אופקי */
+  margin-top: 0.5rem; /* רווח קטן מעל הכוכבים */
+  gap: 0.3rem; /* רווח בין הכוכבים */
+}

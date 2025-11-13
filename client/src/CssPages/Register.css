@@ -1,0 +1,53 @@
+.register-page {
+  background-color: #f9f7f4;
+  min-height: 100vh;
+  padding-top: 4rem;
+  font-family: 'Assistant', sans-serif;
+  direction: rtl;
+}
+
+.register-card {
+  background-color: white;
+  border: 1px solid #e5ded7;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.register-label {
+  color: #3a2f25;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.register-button {
+  background-color: #a67c52;
+  border: none;
+  color: white;
+}
+
+.register-button:hover {
+  background-color: #8f683d;
+}
+
+.register-login-button {
+  background-color: #ede8e2;
+  color: #3a2f25;
+  border: 1px solid #d4c9bc;
+}
+
+.register-login-button:hover {
+  background-color: #d8ccc0;
+}
+.error-message {
+  background-color: #ffe5e5;
+  color: #a30000;
+  border: 1px solid #ffcccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,52 @@
+.login-page {
+  background-color: #f9f7f4;
+  min-height: 100vh;
+  padding-top: 4rem;
+  font-family: 'Assistant', sans-serif;
+  direction: rtl;
+}
+
+.login-card {
+  background-color: white;
+  border: 1px solid #e5ded7;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.login-label {
+  color: #3a2f25;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.login-button {
+  background-color: #a67c52;
+  border: none;
+}
+
+.login-button:hover {
+  background-color: #8f683d;
+}
+
+.login-register-button {
+  background-color: #ede8e2;
+  color: #3a2f25;
+  border: 1px solid #d4c9bc;
+}
+
+.login-register-button:hover {
+  background-color: #d8ccc0;
+}
+.error-message {
+  background-color: #ffe5e5;
+  color: #a30000;
+  border: 1px solid #ffcccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+}

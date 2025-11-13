@@ -1,0 +1,55 @@
+.card {
+  background: #fffaf2; /* גוון קרם בהיר */
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.p-toolbar {
+  background: #f7efe3;
+  border: none;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+}
+
+.p-button {
+  border-radius: 10px;
+}
+
+.p-datatable .p-datatable-header {
+  background: #fcf7f0;
+}
+
+.p-dialog .p-dialog-header {
+  background: #f7efe3;
+  font-weight: bold;
+}
+
+.p-dialog .p-dialog-footer {
+  background: #fcf7f0;
+}
+
+.p-inputtext, .p-inputtextarea, .p-dropdown, .p-inputnumber-input {
+  background-color: #fffdf8;
+  border: 1px solid #d9cbb0;
+  border-radius: 8px;
+}
+
+.p-button-success {
+  background: #b2895b;
+  border: none;
+}
+
+
+.p-tag-success {
+  background: #cde6c1;
+  color: #305230;
+}
+.p-tag-warning {
+  background: #fff1ba;
+  color: #7a5a00;
+}
+.p-tag-danger {
+  background: #ffc9c9;
+  color: #6d1b1b;
+}

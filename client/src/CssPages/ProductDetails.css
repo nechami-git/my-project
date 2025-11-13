@@ -1,0 +1,88 @@
+.product-details-container {
+  background-color: #f9f6f2;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: 'Assistant', sans-serif;
+  direction: rtl;
+}
+
+.product-title {
+  color: #4b3a2f;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.product-subtitle {
+  color: #7a4f27;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.product-price {
+  color: #5c4532;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.product-list {
+  color: #3f2e22;
+  padding-right: 1rem;
+  list-style-type: disc;
+}
+
+.product-image {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  object-fit: contain;
+}
+
+
+.p-inputnumber-button {
+  background-color: #d9c5b2 !important;
+  color: #4b3a2f !important;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.p-inputnumber-button:hover {
+  background-color: #cbb29b !important;
+}
+
+.p-inputnumber-button.p-disabled {
+  background-color: #e7dfd6 !important;
+  color: #a9a9a9 !important;
+}
+
+.p-inputnumber-input {
+  border: 1px solid #c7b5a4 !important;
+  border-radius: 6px !important;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #4b3a2f;
+  background-color: #fdfaf6;
+}
+
+@media (min-width: 768px) {
+  .product-image {
+    max-width: 220px;
+  }
+}
+.basket-button {
+  background-color: #8b6e53; /* חום-ברונזה יוקרתי */
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.basket-button:hover {
+  background-color: #6f5540;
+  cursor: pointer;
+}

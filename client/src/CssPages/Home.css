@@ -1,0 +1,85 @@
+.home-container {
+  background: linear-gradient(to bottom right, #f9f5f0, #e7ddd3);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero-content {
+  background-color: #fffdfb;
+  border-radius: 2rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stars {
+  font-size: 1.4rem;
+  color: #d4af37;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5rem;
+  animation: blink 2s infinite ease-in-out;
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.6;
+    transform: scale(1.2);
+  }
+}
+
+.logo-title {
+  font-size: 3.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-number {
+  color: #d4af37;
+  /* זהב */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.logo-text {
+  color: #7d1a20;
+  /* אדום כהה */
+  margin-left: 0.3rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  color: #7b5e46;
+  margin-top: 0.5rem;
+}
+
+.custom-button {
+  background-color: #8b6e53;
+  border: none;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+  margin-top: 1.5rem;
+}
+
+.custom-button:hover {
+  background-color: #6e513a;
+}
